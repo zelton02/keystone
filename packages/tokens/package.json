@@ -1,0 +1,13 @@
+{
+  "name": "@sistem/tokens",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "sistem-tokens": "./build.mjs"
+  },
+  "files": [
+    "build.mjs",
+    "tokens.json"
+  ],
+  "license": "MIT"
+}

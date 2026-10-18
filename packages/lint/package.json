@@ -1,0 +1,13 @@
+{
+  "name": "@sistem/lint",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "sistem-audit": "./audit.mjs"
+  },
+  "files": [
+    "audit.mjs",
+    "stylelint.config.mjs"
+  ],
+  "license": "MIT"
+}
