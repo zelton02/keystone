@@ -1,4 +1,4 @@
-# sistem
+# keystone
 
 A design-system **engine**, not a component library.
 
@@ -31,7 +31,7 @@ is rewritten per project, because taste is a judgement about a task, not a skin.
 
 ```bash
 # 1. copy the contract template
-cp sistem/templates/AESTHETIC.md ../my-app/AESTHETIC.md
+cp keystone/templates/AESTHETIC.md ../my-app/AESTHETIC.md
 
 # 2. write the project's values
 cat > ../my-app/design/theme.json <<'JSON'
@@ -39,10 +39,10 @@ cat > ../my-app/design/theme.json <<'JSON'
 JSON
 
 # 3. generate CSS variables
-node sistem/packages/tokens/build.mjs --theme ../my-app/design/theme.json --out ../my-app/src/styles/tokens.css
+node keystone/packages/tokens/build.mjs --theme ../my-app/design/theme.json --out ../my-app/src/styles/tokens.css
 
 # 4. audit drift
-node sistem/packages/lint/audit.mjs ../my-app/src
+node keystone/packages/lint/audit.mjs ../my-app/src
 ```
 
 ## License

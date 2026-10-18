@@ -1,9 +1,9 @@
 {
-  "name": "@sistem/tokens",
+  "name": "@keystone/tokens",
   "version": "0.1.0",
   "type": "module",
   "bin": {
-    "sistem-tokens": "./build.mjs"
+    "keystone-tokens": "./build.mjs"
   },
   "files": [
     "build.mjs",

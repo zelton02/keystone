@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * sistem drift audit — zero dependencies.
+ * keystone drift audit — zero dependencies.
  *
  *   node audit.mjs src [--allow color:#0b6b3a]
  *
@@ -62,9 +62,9 @@ for (const file of files) {
 }
 
 if (findings.length) {
-  console.error(`sistem audit: ${findings.length} finding(s)\n`);
+  console.error(`keystone audit: ${findings.length} finding(s)\n`);
   for (const f of findings) console.error("  " + f);
   console.error("\nUse tokens (var(--color-*), var(--space-*)) or declare an exception in the contract.");
   process.exit(1);
 }
-console.log(`sistem audit: clean (${files.length} files)`);
+console.log(`keystone audit: clean (${files.length} files)`);

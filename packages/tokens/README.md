@@ -1,4 +1,4 @@
-# @sistem/tokens
+# @keystone/tokens
 
 Zero-dependency token builder.
 

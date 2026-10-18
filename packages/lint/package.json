@@ -1,9 +1,9 @@
 {
-  "name": "@sistem/lint",
+  "name": "@keystone/lint",
   "version": "0.1.0",
   "type": "module",
   "bin": {
-    "sistem-audit": "./audit.mjs"
+    "keystone-audit": "./audit.mjs"
   },
   "files": [
     "audit.mjs",

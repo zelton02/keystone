@@ -1,4 +1,4 @@
-# @sistem/lint
+# @keystone/lint
 
 Two layers:
 
